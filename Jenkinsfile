@@ -40,7 +40,8 @@ pipeline {
         stage('Package') {
             steps {
                 echo 'Packaging'
-                bat 'mvn package -DskipTests'
+		bat 'mvn clean verify sonar:sonar'
+                //bat 'mvn package -DskipTests'
             }
         }
         stage('Deploy') {
