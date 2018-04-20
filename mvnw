@@ -1,7 +1,7 @@
 #!/bin/sh
 # ----------------------------------------------------------------------------
 #new comment234
-# new comment is now modified again
+# new comment is now modified again twice
 # Licensed to the Apache Software Foundation (ASF) under one
 # or more contributor license agreements.  See the NOTICE file
 # distributed with this work for additional information
